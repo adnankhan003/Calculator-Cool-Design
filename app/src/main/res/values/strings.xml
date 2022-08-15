@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Calculator - Cool Design</string>
+
+    <string name="zero_zero">00</string>
+    <string name="zero">0</string>
+    <string name="dot">.</string>
+    <string name="equals_to">=</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="divide">÷</string>
+    <string name="multiply">x</string>
+    <string name="cut">AC</string>
+    <string name="percentage">%</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="delete">Del</string>
+    <string name="dev_con">Developers contact</string>
+    <string name="ten">10</string>
+    <string name="zero_zero_zero">000</string>
+    <string name="todo">TODO</string>
+    <string name="type">type…</string>
+    <string name="rate_us">Rate us</string>
+    <string name="submit">SUBMIT</string>
+    <string name="contact_us_at">For any query or complaint contact us at :-</string>
+    <string name="name_adnan_khan">Name: Adnan Khan</string>
+    <string name="email_adnankhannew777_gmail_com">Email: adnankhannew777@gmail.com</string>
+    <string name="phone_8446384691">Phone: 8446384691</string>
+    <string name="from_akola_maharashtra">from Akola, Maharashtra.</string>
+
+</resources>
