@@ -3,10 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".CallActivity"
     android:orientation="vertical"
-    android:background="@color/white"
-    >
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/request"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:ignore="TextContrastCheck"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,7 +28,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/actor"
         android:text="@string/name"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="22sp" />
 
     <TextView
@@ -23,8 +36,8 @@
         android:layout_height="wrap_content"
         android:autoLink="email"
         android:text="@string/email"
-        android:textColor="@color/black"
-        android:fontFamily="@font/actor"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
         android:textSize="22sp"
         tools:ignore="TouchTargetSizeCheck"
         android:layout_marginStart="10dp"/>
@@ -32,24 +45,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/address"
-        android:fontFamily="@font/actor"
+        android:layout_marginStart="10dp"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif"
+        android:text="@string/phone_8446384691"
+        android:textColor="@color/white"
         android:textSize="22sp"
-        android:textColor="@color/black"
-        android:layout_marginStart="10dp"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
-        android:text="@string/request"
-        android:textColor="@color/new_hint"
-        android:textSize="18sp"
-        android:textStyle="italic"
-        tools:ignore="TextContrastCheck"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"/>
+        android:text="@string/address"
+        android:fontFamily="@font/actor"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"/>
 
 
 </LinearLayout>
